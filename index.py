@@ -11,10 +11,10 @@ def insert_into_moviedb(data):
     # Connect to MySQL server
     # Replace 'your_username', 'your_password', 'your_host' and 'your_database' with appropriate values
     conn = mysql.connector.connect(
-        host='localhost',
-        user='anant',
+        host='82.180.143.103',
+        user='u336184921_aimovie',
         password='Anants2mi7@',
-        database='moviebot'
+        database='u336184921_moviedb'
     )
 
     # Create cursor object
@@ -42,10 +42,10 @@ def get_latest_postid():
     # Connect to MySQL server
     # Replace 'your_username', 'your_password', 'your_host' and 'your_database' with appropriate values
     conn = mysql.connector.connect(
-        host='localhost',
-        user='anant',
+       host='82.180.143.103',
+        user='u336184921_aimovie',
         password='Anants2mi7@',
-        database='moviebot'
+        database='u336184921_moviedb'
     )
 
     # Create cursor object
